@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Brew | Home</title>
+
+    <!--library-files-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!--local-files-->
+    <link href="../css/order.css" rel="stylesheet" type="text/css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="../index.html"><div class="logo-con">
+
+        </div><!--logo-con--></a>
+
+        <div class="icon-con">
+            <div class="search-icon">
+
+            </div>
+            <div class="user-icon">
+
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">☰ MENU
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Order</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div><!--icon-con-->
+    </div><!--nav-bar-->
+
+    <div class="main-body">
+        <div class="heading-con">
+            <h1>ORDER UP</h1>
+        </div>
+
+        <div class="size-con">
+            <div class="size-heading">
+                <h3>CHOOSE YOUR SIZE</h3>
+            </div>
+
+            <div class="sizes-holder">
+                <div class="large-size">
+                    <div class="image-holder-large">
+
+                    </div>
+                    <div class="size-text-large">
+                        <h4>Large</h4>
+                    </div>
+                    <div class="large-button-holder">
+                        <div class="large-size-btn">
+                            SELECT SIZE
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="medium-size">
+                    <div class="image-holder-medium">
+
+                    </div>
+                    <div class="size-text-medium">
+                        <h4>Medium</h4>
+                    </div>
+                    <div class="medium-button-holder">
+                        <div class="medium-size-btn">
+                            SELECT SIZE
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="small-size">
+                    <div class="image-holder-small">
+
+                    </div>
+                    <div class="size-text-small">
+                        <h4>Small</h4>
+                    </div>
+                    <div class="medium-small-holder">
+                        <div class="small-size-btn">
+                            SELECT SIZE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--size-con-->
+
+        <div class="style-con">
+            <div class="style-heading">
+                <h3>CHOOSE YOUR STYLE</h3>
+            </div>
+
+            <div class="styles-holder">
+                <div class="americano-style">
+                    <div class="image-holder-americano">
+
+                    </div>
+                    <div class="style-text-americano">
+                        <h4>Americano</h4>
+                    </div>
+                    <div class="americano-button-holder">
+                        <div class="americano-style-btn">
+                            SELECT STYLE
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="latte-style">
+                    <div class="image-holder-latte">
+
+                    </div>
+                    <div class="style-text-latte">
+                        <h4>Latte</h4>
+                    </div>
+                    <div class="latte-button-holder">
+                        <div class="latte-style-btn">
+                            SELECT STYLE
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="cappucino-style">
+                    <div class="image-holder-cappucino">
+
+                    </div>
+                    <div class="style-text-cappucino">
+                        <h4>Cappucino</h4>
+                    </div>
+                    <div class="cappucino-button-holder">
+                        <div class="cappucino-style-btn">
+                            SELECT STYLE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--style-con-->
+
+        <div class="ingredients-con">
+            <div class="ingredients-heading">
+                <h3>CHOOSE YOUR INGREDIENTS</h3>
+
+                <p>(MORE THAN ONE INGREDIENT CAN BE ADDED FOR AN ADDITIONAL PRICE)</p>
+            </div>
+
+            <div class="ingredient-holder">
+                <div class="ice-cream-con">
+                    <div class="switch-con">
+                        <label class="switch ice-cream">
+                            <input id="ice-cream-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="ice-cream-text-con">
+                        ICE CREAM
+                    </div>
+                </div>
+                <div class="vanilla-con">
+                    <div class="switch-con">
+                        <label class="switch vanilla">
+                            <input id="vanilla-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="vanilla-text-con">
+                        VANILLA EXTRACT
+                    </div>
+                </div>
+                <div class="sugar-con">
+                    <div class="switch-con">
+                        <label class="switch sugar">
+                            <input id="sugar-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="sugar-text-con">
+                        SUGAR
+                    </div>
+                </div>
+
+                <div class="almond-con">
+                    <div class="switch-con">
+                        <label class="switch almond">
+                            <input id="almond-switch"type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="almond-text-con">
+                        ALMOND MILK
+                    </div>
+                </div>
+
+                <div class="choc-con">
+                    <div class="switch-con">
+                        <label class="switch choc">
+                            <input id="chocolate-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="choc-text-con">
+                        CHOCOLATE
+                    </div>
+                </div>
+
+                <div class="egg-con">
+                    <div class="switch-con">
+                        <label class="switch egg">
+                            <input id="egg-switch"type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="egg-text-con">
+                        EGG
+                    </div>
+                </div>
+
+                <div class="honey-con">
+                    <div class="switch-con">
+                        <label class="switch honey">
+                            <input id="honey-switch"type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="honey-text-con">
+                        HONEY
+                    </div>
+                </div>
+
+                <div class="cinnamon-con">
+                    <div class="switch-con">
+                        <label class="switch cinnamon">
+                            <input id="cinnamon-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="cinnamon-text-con">
+                        CINNAMON
+                    </div>
+                </div>
+
+                <div class="butter-con">
+                    <div class="switch-con">
+                        <label class="switch butter">
+                            <input id="butter-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="butter-text-con">
+                        BUTTER
+                    </div>
+                </div>
+
+                <div class="salt-con">
+                    <div class="switch-con">
+                        <label class="switch salt">
+                            <input id="salt-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="salt-text-con">
+                        SALT
+                    </div>
+                </div>
+
+                <div class="cardamom-con">
+                    <div class="switch-con">
+                        <label class="switch cardamom">
+                            <input id="cardomom-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="cardamom-text-con">
+                        CARDAMOM
+                    </div> 
+                </div>
+
+                <div class="soy-con">
+                    <div class="switch-con">
+                        <label class="switch soy">
+                            <input id="soy-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="soy-text-con">
+                        SOY MILK
+                    </div> 
+                </div>
+                    
+            </div>
+        </div><!--ingredients-con-->
+
+        <div class="bottom-con">
+            <div class="order-output-con">
+                <div class="image-output-con">
+                    <img id="le-large-coffee" src="../assets/coffeeLarge.png" style="display: none;">
+                    <img id="le-medium-coffee" src="../assets/coffeeMedium.png" style="display: none;">
+                    <img id="le-small-coffee" src="../assets/coffeeSmall.png" style="display: none;">
+                </div>
+
+                <div class="info-con">
+                    <div class="output-text-con">
+                        <p id="size-description">-</p>
+                        <p id="style-description"></p>
+                        <p id="le-with" style="display: none;">with</p>
+                        <p id="first-ingredient-output"></p>
+                        <p id="le-plus" style="display: none;">+ </p>
+                        <p id="second-ingredient-output"></p>
+                        
+
+                    </div>
+                    <div class="output-price-con">
+                        R <p id="price-output-rand">0</p>
+                    </div>
+                    <div class="promo-code-con">
+                        <input type="text" id="promo-code-input" placeholder="ENTER PROMO CODE">
+                        <input id="submit-button" type="submit" value="→">
+                    </div>
+                    <div class="place-order-con">
+                        <div class="promo-message"><p id="try-again-msg" style="display: none;">INVALID PROMO CODE</p></div>
+                        <div class="place-order-button">PLACE ORDER</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout-con">
+                <div class="checkout-title-con">
+                    Checkout
+                </div>
+                <div class="checkout-headings-con">
+                    <div class="product-code">#</div>
+                    <div class="item-name">Coffee Name</div>
+                    <div class="price">Price</div>
+                    <div class="remove-btn-larger">
+                        <img src="../assets/white-cross.png" width="25px" height="25px" id="remove-all">
+                    </div>
+                </div>
+                <div class="checkout-items-con">
+                    
+                </div>
+                <div class="checkout-purchase-con">
+                    <div class="checkout-purchase-btn">
+                        <div class="purchase-button">PURCHASE</div>
+                    </div>
+                    <div class="add-another-btn">
+                        <button id="add-another-button">+</button>
+                        <p>Add another</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--bottom-con-->
+
+
+    </div><!--main-body-->
+
+    <div class="footer">
+        <div class="top-half">
+            <a href="../index.html"><div class="logo-foot-con"></div></a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="#">Order Coffee</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="socials">
+                <div class="twitter-con">
+
+                </div>
+                <div class="insta-con">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-half">
+            <p>copyright © deja brew 2021. All Rights reserved.</p>
+        </div>
+    </div><!--footer-->
+</body>
+</html>

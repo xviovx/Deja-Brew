@@ -1,0 +1,1210 @@
+/*code for nav bar*/
+
+.nav-bar{
+    height: 8vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0.8) 0.01%, rgba(123, 104, 91, 0.8) 0.02%);
+}
+
+.logo-con{
+    height: 100%;
+    width: 12rem;
+    background-image: url("../assets/Deja\ Brew.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 20rem;
+    float: left;
+}
+
+.icon-con{
+    height: 100%;
+    width: 30rem;
+    float: right;
+    margin-right: 2rem;
+}
+
+.search-icon{
+    height: 65%;
+    width: 14%;
+    margin-top: 10px;
+    float: left;
+    background-image: url("../assets/search\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.user-icon{
+    height: 65%;
+    width: 14%;
+    margin-top: 10px;
+    float: left;
+    background-image: url("../assets/user\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dropdown{
+    height: 70%;
+    width: 68%;
+    margin-top: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    height: 90%;
+    width: 28%;
+    margin-top: 1%;
+    float: left;
+    font-family: 'Shippori Mincho';
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.dropdown .dropdown-content{
+    height: 100%;
+    width: 75%;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: inline-flex;
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+/*end of code for nav bar*/
+
+/*code for main body*/
+
+/****SIZES****/
+.main-body{
+    height: 165rem;
+    width: 100%;
+    background-color: #2B2B2B;
+}
+
+.heading-con{
+    height: 11rem;
+    width: 75%;
+    margin-left: 17rem;
+    
+}
+
+.heading-con h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 65px;
+}
+
+.size-con{
+    height: 45rem;
+    width: 75%;
+    margin-left: 17rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.size-heading{
+    height: 14%;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.sizes-holder{
+    height: 75%;
+    width: 100%;
+}
+
+.large-size{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.medium-size{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.small-size{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.image-holder-large{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeLarge.png");
+    background-repeat: no-repeat;
+}
+
+.image-holder-medium{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeMedium.png");
+    background-repeat: no-repeat;
+}
+
+.image-holder-small{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeSmall.png");
+    background-repeat: no-repeat;
+}
+
+.size-text-large h4{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: lighter;
+    font-size: 32px;
+    color: white;
+}
+
+.size-text-medium h4{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: lighter;
+    font-size: 32px;
+    color: white;
+}
+
+.size-text-small h4{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: lighter;
+    font-size: 32px;
+    color: white;
+}
+
+.large-size-btn, .medium-size-btn, .small-size-btn{
+    width: 9rem;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 9.9rem;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+}
+
+.americano-style-btn, .latte-style-btn, .cappucino-style-btn{
+    width: 10rem;
+    font-size: 20px;
+    padding: 3.5px;
+    margin-left: 9.5rem;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+}
+
+.large-size-btn:hover, .medium-size-btn:hover, .small-size-btn:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    cursor: pointer;
+}
+
+.americano-style-btn:hover, .latte-style-btn:hover, .cappucino-style-btn:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    cursor: pointer;
+}
+
+/*
+.large-btn:focus, .medium-btn:focus, .small-btn:focus{
+    background-color: #88634f;
+    color: white;
+}
+*/
+
+.size-text-holder{
+    padding-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+.size-text-large{
+    padding-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+.size-text-medium{
+    padding-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+.size-text-small{
+    padding-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+
+.large-button-holder{
+    height: 15%;
+    width: 100%;
+}
+
+
+.size-heading h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+
+
+/****END OF SIZES****/
+
+/****STYLES****/
+.style-con{
+    height: 45rem;
+    width: 75%;
+    margin-left: 17rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.style-heading{
+    height: 14%;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.style-heading h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.styles-holder{
+    height: 75%;
+    width: 100%;
+}
+
+.americano-style{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.latte-style{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.cappucino-style{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+.image-holder-americano{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeAmericano.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.image-holder-latte{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeLatte.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.image-holder-cappucino{
+    height: 70%;
+    width: 100%;
+    background-image: url("../assets/coffeeCappucino.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.style-text-americano, .style-text-latte, .style-text-cappucino{
+    padding-top: 15px;
+    height: 15%;
+    width: 100%;
+}
+
+.style-text-americano h4, .style-text-latte h4, .style-text-cappucino h4{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: lighter;
+    font-size: 32px;
+    color: white;
+}
+
+/****END OF STYLES****/
+
+/****INGREDIENTS****/
+.ingredients-con{
+    height: 25rem;
+    width: 75%;
+    margin-left: 17rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+    padding-top: 2rem;
+}
+
+.ingredients-heading{
+    width: 100%;
+    height: 8rem;
+}
+
+.ingredients-heading h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.ingredients-heading p{
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    padding-top: 28px;
+}
+
+.ingredient-holder{
+    margin-top: 2rem;
+    width: 100%;
+    height: 60%;
+}
+
+.ice-cream-con{
+    height: 2.5rem;
+    width: 13rem;
+    float: left;
+}
+
+.vanilla-con{
+    height: 2.5rem;
+    width: 18rem;
+    float: left;
+}
+
+.sugar-con{
+    height: 2.5rem;
+    width: 10rem;
+    float: left;
+    margin-left: 5px;
+}
+
+.almond-con{
+    height: 2.5rem;
+    width: 16rem;
+    float: left;
+    margin-left: 10px;
+}
+
+.choc-con{
+    height: 2.5rem;
+    width: 16rem;
+    float: left;
+    margin-left: 10px;
+}
+
+.switch-con{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.egg-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-left: 10px;
+}
+
+.honey-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-top: 35px;
+}
+
+.cinnamon-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.butter-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.salt-con{
+    height: 2.5rem;
+    width: 9rem;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.cardamom-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.soy-con{
+    height: 2.5rem;
+    width: 12rem;
+    float: left;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.ice-cream-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.vanilla-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 2px;
+}
+
+.sugar-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.almond-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+
+.choc-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+
+.egg-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.honey-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.cinnamon-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.butter-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.salt-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 35px;
+}
+
+.cardamom-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.soy-text-con{
+    height: 100%;
+    width: 75%;
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+/*************CODE FOR SWITCHES!!!!!*****************/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #C87742;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #C87742;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /*************END OF CODE FOR SWITCHES!!!!!*****************/
+
+
+
+
+/****END OF INGREDIENTS****/
+
+/****CODE FOR BOTTOM CONTAINER*****/
+.bottom-con{
+    height: 35rem;
+    width: 75%;
+    margin-left: 17rem;
+}
+
+.order-output-con{
+    height: 85%;
+    width: 50%;
+    float: left;
+    margin-top: 85px;
+    border-right: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.image-output-con{
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+
+.image-output-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.info-con{
+    height: 100%;
+    width: 55%;
+    float: left;
+}
+
+.output-text-con{
+    width: 100%;
+    height: 30%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.output-text-con p{
+    display: inline-block;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.output-price-con{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+}
+
+#price-output-rand::after{
+    content: '.00';
+    color: white;
+}
+
+.output-price-con p{
+    display: inline-block;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    padding-top: 17px;
+}
+
+.promo-code-con{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+#promo-code-input{
+    border: 3px solid #88634f;
+    font-size: large;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#submit-button{
+    color: white;
+    font-weight: 900;
+    background-color: #88634f;
+    border: 1px solid #88634f;
+    font-size: 18px;
+    padding: 16px;
+}
+
+#submit-button:hover{
+    background-color: #88634f8f;
+}
+
+.place-order-con{
+    width: 100%;
+    height: 30%;
+}
+
+.promo-message{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#try-again-msg{
+    color: white;
+}
+
+
+.checkout-con{
+    height: 85%;
+    width: 50%;
+    float: left;
+    margin-top: 85px;
+    padding-left: 70px;
+}
+
+.checkout-title-con{
+    width: 100%;
+    height: 15%;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 34px;
+    color: white;
+    padding-top: 10px;
+}
+
+.checkout-headings-con{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.checkout-items-con{
+    width: 100%;
+    height: 52%;
+}
+
+.checkout-item{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.product-code-output{
+    width: 10%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.item-name-output{
+    width: 65%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.price-checkout-output{
+    width: 17%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.remove-single{
+    width: 0%;
+    height: 100%;
+    float: left;
+    background-color: chartreuse;
+}
+
+.remove-single img{
+    margin-top: 15px;
+    margin-left: 15px;
+    object-fit: contain;
+    display: block;
+}
+
+.item-name-output p{
+    display: inline-flex;
+}
+
+.product-code{
+    width: 10%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.item-name{
+    width: 65%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.price{
+    width: 12%;
+    height: 100%;
+    float: left;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.remove-btn-larger{
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+
+.remove-btn-larger img{
+    margin-top: 12px;
+    margin-left: 12px;
+    object-fit: contain;
+    display: block;
+}
+
+.checkout-purchase-con{
+    width: 100%;
+    height: 23%;
+    padding-top: 18px;
+}
+
+.checkout-purchase-con p{
+    display: inline-flex;
+}
+
+.checkout-purchase-btn{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.add-another-btn{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.add-another-btn p{
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+}
+
+.purchase-button{
+    width: 9.5rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.purchase-button:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 3px solid #88634f;
+    cursor: pointer;
+}
+
+.place-order-button{
+    width: 12rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+}
+
+.place-order-button:hover{
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 3px solid #88634f;
+    cursor: pointer;
+}
+
+.unclicked{
+    width: 9rem;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 9.9rem;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+}
+
+.clicked{
+    background-color: #88634f;
+    color: white;
+    border: 3px solid #000000;
+    padding-left: 15px;
+}
+
+.clicked-s{
+    background-color: #88634f;
+    color: white;
+    border: 3px solid #000000;
+    padding-left: 24px;
+}
+
+.clicked-s-s{
+    width: 12.5rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 3px solid #000000;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #88634f;
+}
+
+.clicked-s-s-s{
+    width: 10.4rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 3px solid #000000;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #88634f;
+    margin-right: 5px;
+}
+
+.unclicked-s{
+    width: 10.5rem;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 9.9rem;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+}
+
+.unclicked-s-s{
+    width: 12rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+.unclicked-s-s-s{
+    width: 9.5rem;
+    font-size: 20px;
+    padding: 16px;
+    border: 2px solid #D1997B;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.clicked:hover, .clicked-s:hover, .clicked-s-s:hover, .clicked-s-s-s:hover{
+    background-color: #88634f7e;
+}
+
+#add-another-button{
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 12px;
+    padding-bottom: 1px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+
+#add-another-button:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+    color: white;
+}
+
+
+/****END OF CODE FOR BOTTOM CONTAINER*****/
+/*code for footer*/
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0.8) 0.01%, rgba(123, 104, 91, 0.8) 0.02%);
+}
+
+.top-half{
+    height: 65%;
+    width: 70%;
+    margin-left: 20rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+}
+
+.bottom-half{
+    height: 35%;
+    width: 70%;
+    margin-left: 20rem;
+}
+
+.logo-foot-con{
+    height: 60%;
+    margin-top: 2rem;
+    width: 12rem;
+    background-image: url("../assets/Deja\ Brew.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+}
+
+.nav-links{
+    height: 30%;
+    width: 60rem;
+    float: left;
+    margin-top: 4rem;
+    font-family: 'Alegreya';
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.socials{
+    height: 30%;
+    width: 11rem;
+    float: left;
+    margin-top: 3.5rem;
+}
+
+.twitter-con{
+    height: 100%;
+    width: 27%;
+    float: left;
+    margin-left: 5em;
+    background-image: url("../assets/twitter\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.insta-con{
+    height: 100%;
+    width: 27%;
+    float: left;
+    background-image: url("../assets/insta\ icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.nav-links a{
+    margin-left: 10rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    font-weight: bold;
+}
+
+.bottom-half p{
+    margin-left: 36%;
+    color: rgba(255, 255, 255, 0.589);
+    text-transform: uppercase;
+    font-family: 'Alegreya';
+    padding-top: 25px;
+}
+
+/*end of code for footer*/
+
+
+/*EXTRA CODE*/
+.remove-btn-larger:hover, .remove-single:hover{
+    cursor: pointer;
+}
